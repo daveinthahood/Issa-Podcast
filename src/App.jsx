@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import WaitingRoom from './Components/WaitingRoom'
-
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <WaitingRoom />
+      <Analytics />
     </>
   )
 }
