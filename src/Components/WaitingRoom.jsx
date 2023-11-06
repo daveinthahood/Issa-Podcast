@@ -9,14 +9,15 @@ function WaitingRoom() {
       <video
           className='w-[250px] flex justify-center text-center align-middle rounded-xl'  
           src={videoIssa}
+          controls
           muted
           autoPlay="true"
           preLoad="auto"
           loop
-        > something</video>
+        > something </video>
         </div>
         <h1 className='text-white mt-4 text-4xl'> Issa ComeBack! </h1>
-        <p className='text-white mt-4 text-2xl p-2'> Issa sta tornando con molte novità! <br /> A breve lanceremo questo sito e tutto avrà una nuova veste </p>
+        <p className='text-white mt-4 text-2xl p-2'> Issa sta tornando con molte novità! <br /> A breve lanceremo questo sito e tutto avrà una nuova veste. </p>
         <div className=' mt-8 flex justify-center text-center gap-5 decoration-none'>
             <a href="https://open.spotify.com/show/5tWQcXyvspOyZvaoEAC268" className='text-white border-1 rounded-xl bg-green-500 p-2'> Spotify </a>
             <a href="https://www.instagram.com/issapodcast_/" className='text-white border-1 rounded-xl bg-green-500 p-2'> Instagram </a>
