@@ -12,6 +12,7 @@ function WaitingRoom() {
           muted
           autoPlay
           loop
+          preload='true'
         > something </video>
         </div>
         <h1 className='text-white mt-4 text-4xl font-bold'> Issa ComeBack! </h1>
