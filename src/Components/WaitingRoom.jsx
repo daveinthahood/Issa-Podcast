@@ -9,10 +9,8 @@ function WaitingRoom() {
       <video
           className='w-[250px] flex justify-center text-center align-middle rounded-xl'  
           src={videoIssa}
-          controls
           muted
-          autoPlay="true"
-          preLoad="auto"
+          autoPlay
           loop
         > something </video>
         </div>
