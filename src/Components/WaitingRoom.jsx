@@ -1,19 +1,13 @@
 import React from 'react'
 import videoIssa from "../assets/issalogovideo.mp4"
+import star from "../assets/grafiche stelle.png"
 
 function WaitingRoom() {
   return (
     <div className='flex-col w-full h-full content-center text-center align-middle mr-auto'>
       <div className="w-4/4 h-4/4 flex-column justify-center text-center mr-0-auto ">
       <div className=' w-screen flex justify-center text-center align-middle mt-10'>
-      <video
-          className='w-[250px] flex justify-center text-center align-middle rounded-xl'  
-          src={videoIssa}
-          muted
-          autoPlay
-          loop
-          preload='true'
-        > something </video>
+      <img src={star} className='w-[150px]'/>
         </div>
         <h1 className='text-white mt-4 text-4xl font-bold'> Issa ComeBack! </h1>
         <p className='text-white mt-4 text-2xl p-2'> <strong>Issa</strong> sta tornando! <br /> A breve lanceremo questo sito e ci saranno molte novità. <br /> <strong> Resta connesso.</strong> </p>
